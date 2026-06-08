@@ -47,4 +47,9 @@ son accuracy chute à 94.7%. Le scaler doit toujours être fitté sur le train s
 - Le scaling change tout pour KNN et la régression logistique, rien pour les arbres
 - Le data leakage peut gonfler artificiellement les résultats
 - Un modèle interprétable vaut parfois mieux qu'un modèle légèrement plus précis
+
+## Conclusion
+
+Cette étude montre qu'il n'existe pas de modèle universellement meilleur. Les performances dépendent fortement du jeu de données et du prétraitement appliqué. La Régression Logistique combinée à un StandardScaler s'est révélée être la solution la plus fiable pour le dataset Breast Cancer.
+
 """
